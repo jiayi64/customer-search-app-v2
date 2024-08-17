@@ -1,0 +1,62 @@
+.excel-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.excel-data-table {
+    border-collapse: collapse;
+    width: 90%;  /* 可以调整整个表格的宽度 */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.excel-data-table th, .excel-data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.excel-data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* 调整每一列的宽度 */
+.excel-data-table th:nth-child(1), .excel-data-table td:nth-child(1) {
+    width: 10%;  /* 调整 "購買日" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(2), .excel-data-table td:nth-child(2) {
+    width: 12%;  /* 调整 "姓名" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(3), .excel-data-table td:nth-child(3) {
+    width: 10%;  /* 调整 "市話" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(4), .excel-data-table td:nth-child(4) {
+    width: 10%;  /* 调整 "手機" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(5), .excel-data-table td:nth-child(5) {
+    width: 8%;  /* 调整 "廠牌" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(6), .excel-data-table td:nth-child(6) {
+    width: 8%;  /* 调整 "產品" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(7), .excel-data-table td:nth-child(7) {
+    width: 10%;  /* 调整 "機型" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(8), .excel-data-table td:nth-child(8) {
+    width: 8%;  /* 调整 "機號" 列的宽度 */
+}
+
+.excel-data-table th:nth-child(9), .excel-data-table td:nth-child(9) {
+    width: 20%;  /* 调整 "地址" 列的宽度 */
+}
+
+  
